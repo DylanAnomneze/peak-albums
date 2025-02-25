@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+a {
+  color: whitesmoke;
+}
+
 .tracklist {
   color: whitesmoke;
   display: flex;
@@ -156,4 +160,10 @@ hr {
   margin-bottom: 50px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
