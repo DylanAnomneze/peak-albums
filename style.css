@@ -16,10 +16,24 @@ a {
   color: whitesmoke;
 }
 
-.tracklist {
+.textbox {
   color: whitesmoke;
   display: flex;
   width: 450px;
+  height: auto;
+  margin: auto;
+  border: 3px solid whitesmoke;
+  border-radius: 7px;
+  border-start-end-radius: 20px;
+  border-end-start-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(175, 175, 175);
+  /* backdrop-filter: blur(100%); */
+}
+
+#lorem-ipsum-textbox {
+  color: whitesmoke;
+  display: flex;
+  width: 90%;
   height: auto;
   margin: auto;
   border: 3px solid whitesmoke;
@@ -124,6 +138,17 @@ table {
   right: 20px;
 }
 
+#lorem-ipsum {
+  color: white;
+  background-color: rgb(100, 100, 100);
+  border: 2px solid rgb(200, 200, 200);
+  border-radius: 3px;
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 #subtitle {
   text-align: center;
   margin-top: auto;
@@ -166,4 +191,10 @@ hr {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#lorem-ipsum-text {
+  text-align: center;
+  width: 90%;
+  margin: 20px;
 }
